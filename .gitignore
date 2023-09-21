@@ -1,7 +1,14 @@
 .idea
-.env
 venv
+
+# envfiles
+.env
+.env.prod
+.env.prod.db
+
+# staticfiles
 static
 media
 
+#cache
 **/__pycache__
